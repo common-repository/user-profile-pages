@@ -1,0 +1,224 @@
+# User Profile Pages
+# Copyright (C) 2010 Austin Witt
+# This file is distributed under the same license as the user_profile_pages package.
+# Austin Witt <gengar003@gmail.com> 2010
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-10-20 15:57-0500\n"
+"PO-Revision-Date: 2010-10-18 19:34-6\n"
+"Last-Translator: Austin Witt <gengar003@gmail.com>\n"
+"Language-Team: SPANISH <gengar003@gmail.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: up-user-page.php:42
+msgid "User Profile"
+msgstr "Perfil del Usuario"
+
+#: up-user-page.php:43
+msgid "user-profile"
+msgstr "perfil-del-usuario"
+
+#: up-user-page.php:60
+msgid ""
+"WordPress needs this page to exist in order to display user profiles. "
+"However, nothing you type here will show up, as the user profile plugin will "
+"create the user profile pages for you."
+msgstr ""
+"Wordpress nececita esta página para mostrar páginas de los perfíles de los "
+"usuarios. Sin embargo, nada que escrita aqui será visible, porque el plugin "
+"de los páginas de los usuarios creará la página automaticamente."
+
+#: up-user-page.php:85
+msgid "Age"
+msgstr "Edad"
+
+#: up-user-page.php:85
+msgid "Post Count"
+msgstr "Número de Artículos"
+
+#: up-user-page.php:85
+msgid "Comment Count"
+msgstr "Número de Comentarios"
+
+#: up-user-page.php:85
+msgid "User Level"
+msgstr "Nivel de Usuario"
+
+#: up-user-page.php:295
+#, php-format
+msgid "%s's Stats:"
+msgstr "Estadísticas de %s:"
+
+#: up-user-page.php:301
+msgid "Edit your profile"
+msgstr "Editar su perfil"
+
+#: up-user-page.php:334
+msgid "days"
+msgstr "días"
+
+#: up-user-page.php:376
+msgid "biography"
+msgstr "biografía"
+
+#: up-user-page.php:378
+msgid "aim"
+msgstr "aim"
+
+#: up-user-page.php:379
+msgid "yim"
+msgstr "yim"
+
+#: up-user-page.php:380
+msgid "gtalk"
+msgstr "gtalk"
+
+#: up-user-page.php:382
+msgid "email"
+msgstr "email"
+
+#: up-user-page.php:384
+msgid "website"
+msgstr "página"
+
+#: up-user-page.php:385
+msgid "website_link"
+msgstr "página_enlace"
+
+#: up-user-page.php:386
+msgid "display_name"
+msgstr "nombre_público"
+
+#: up-user-page.php:405
+msgid ""
+"You are not logged in. You cannot have have a profile page unless you "
+"register an account."
+msgstr ""
+"No eres connectado. No puedes tener una página de perfil a menos que "
+"registres una cuenta."
+
+#: up-user-page.php:459
+msgid "User Profile Page"
+msgstr "Página de Perfil del Usuario"
+
+#: up-user-page.php:466
+#, php-format
+msgid "%s's Profile"
+msgstr "Perfil de %s"
+
+#: up-user-page.php:491
+msgid "User Profile Page Admin Options"
+msgstr "Opciones Administrativas para Página de Perfil del Usuario"
+
+#: up-user-page.php:491
+msgid "User Profile Pages"
+msgstr "Páginas de Perfil para Usuarios"
+
+#: up-user-page.php:511
+msgid "Main Settings"
+msgstr "Opciones Principales"
+
+#: up-user-page.php:512
+msgid "Available Statistics"
+msgstr "Estadísticas Disponsibles"
+
+#: up-user-page.php:514
+msgid ""
+"<label for=\"up_restore\"> Restore default settings upon reactivation? </"
+"label>"
+msgstr ""
+"<label for=\"up_restore\"> Restaurar defectos en reactivación? </label>"
+
+#: up-user-page.php:515
+msgid ""
+"<label for=\"up_uninstall\"> Completely un-install upon deactivation?"
+"<br><br><b>Warning:</b> This will completely erase all user-entered "
+"information in addition to all settings. You cannot undo this. </label>"
+msgstr ""
+"<label for=\"up_uninstall\"> Desinstalar completamente en desactivación?"
+"<br><br><b>Cuidado:</b> Borrará completamente todo la información entrada "
+"por usuarios además de los opciones. No se puede deshacer esta acción. </"
+"label>"
+
+#: up-user-page.php:554
+msgid "Allowed"
+msgstr "Permitido"
+
+#: up-user-page.php:586
+msgid "Visible"
+msgstr "Visible"
+
+#: up-user-page.php:605
+msgid ""
+"These are the things that users can choose to display on their profile page. "
+"If you disable an option here, users will <b>not</b> be able to display it."
+msgstr ""
+"Esas son las cosas que los usuarios pueden eligir mostrar en su página de "
+"perifl. Si desactivas un opción aquí, los usuarios <b>no se pueden</b> "
+"mostrarlo."
+
+#: up-user-page.php:619
+msgid "General settings pertaining to User Profile Pages."
+msgstr "Opciones generales sobre Páginas de Perfiles de los Usuarios"
+
+#: up-user-page.php:653
+msgid "You do not have sufficient permissions to access this page."
+msgstr "No tiene permisos suficientes acceder a esta páguba."
+
+#: up-user-page.php:817
+msgid "Settings"
+msgstr "Opciones"
+
+#: up-user-page.php:839
+msgid "E-mail Support"
+msgstr "Apoyo por Correo Electrónico"
+
+#~ msgid "User Profile Page Options"
+#~ msgstr "Opciones de la Página de Perfil del Usuario"
+
+#~ msgid ""
+#~ "Each user has a \"profile page\" on which they can display certain "
+#~ "statistics. You can control which statistics users are able to choose "
+#~ "from on this page."
+#~ msgstr ""
+#~ "Cada usuario tiene un \"página de perfil\" en que se pueden mostrar "
+#~ "algunas estadísticas. Se puede controlar cuales estadísticas de que los "
+#~ "usuarios se pueden eligir en esta página."
+
+#~ msgid "Profile Page"
+#~ msgstr "Página de Perfil"
+
+#~ msgid "Your public profile page. You can use ["
+#~ msgstr "Tu página de perfil pública. Se puede usar ["
+
+#~ msgid "], ["
+#~ msgstr "], ["
+
+#~ msgid "], and ["
+#~ msgstr "], y ["
+
+#~ msgid "] tags. "
+#~ msgstr "] etiquetas. "
+
+#~ msgid "User Stats"
+#~ msgstr "Estadísticas del Usuario"
+
+#~ msgid ""
+#~ "Your account statistics that will be publicly displayed at the end of "
+#~ "your user profile page."
+#~ msgstr ""
+#~ "Las estadísticas de su cuenta que serán mostradas publicamente al fin de "
+#~ "tu página de perfil."
+
+#~ msgid "Restore Defaults Upon Reactivation?"
+#~ msgstr "Restaurar Defectos en Reactivación?"
+
+#~ msgid "Enabled"
+#~ msgstr "Permitido"

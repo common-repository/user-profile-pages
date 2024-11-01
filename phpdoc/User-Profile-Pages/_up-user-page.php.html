@@ -1,0 +1,902 @@
+<html>
+<head>
+<title>Docs for page up-user-page.php</title>
+<link rel="stylesheet" type="text/css" href="../media/style.css">
+</head>
+<body>
+
+<table border="0" cellspacing="0" cellpadding="0" height="48" width="100%">
+  <tr>
+    <td class="header_top">User-Profile-Pages</td>
+  </tr>
+  <tr><td class="header_line"><img src="../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+  <tr>
+    <td class="header_menu">
+        
+                                    
+                              		  [ <a href="../classtrees_User-Profile-Pages.html" class="menu">class tree: User-Profile-Pages</a> ]
+		  [ <a href="../elementindex_User-Profile-Pages.html" class="menu">index: User-Profile-Pages</a> ]
+		  	    [ <a href="../elementindex.html" class="menu">all elements</a> ]
+    </td>
+  </tr>
+  <tr><td class="header_line"><img src="../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+</table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="200" class="menu">
+      <b>Packages:</b><br />
+              <a href="../li_User-Profile-Pages.html">User-Profile-Pages</a><br />
+            <br /><br />
+                        <b>Files:</b><br />
+      	  <div class="package">
+			<a href="../User-Profile-Pages/_up-no-comments.php.html">		up-no-comments.php
+		</a><br>
+			<a href="../User-Profile-Pages/_up-user-page.php.html">		up-user-page.php
+		</a><br>
+	  </div><br />
+      
+      
+                </td>
+    <td>
+      <table cellpadding="10" cellspacing="0" width="100%" border="0"><tr><td valign="top">
+
+<h1>Procedural File: up-user-page.php</h1>
+Source Location: /up-user-page.php<br /><br />
+
+<br>
+<br>
+
+
+<h2>Page Details:</h2>
+A WordPress plugin to add a 'profile page' for each user. They can add text to their page, and choose from several account statistics to display.<br /><br /><br /><br />
+<br /><br />
+<br /><br />
+  <hr />
+	<a name="defineUP_PLUGIN_NAME"></a>
+	<h3>UP_PLUGIN_NAME <span class="smalllinenumber">[line 20]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>UP_PLUGIN_NAME = 'user_profile_pages'</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    The Plugin's name. Used whenever it references itself.<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+<br />
+  <hr />
+	<a name="functionall_stats_fields"></a>
+	<h3>all_stats_fields <span class="smalllinenumber">[line 544]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void all_stats_fields(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		Echoes checkboxes for all 'statistic' fields in the admin dashboard's options page.<br /><br /><p>I18n'd</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>since:</b>&nbsp;&nbsp;</td><td>0.0.2</td>
+  </tr>
+</table>
+</div>
+    <br /><br />
+	
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionup_action_admin_menu_fn"></a>
+	<h3>up_action_admin_menu_fn <span class="smalllinenumber">[line 489]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void up_action_admin_menu_fn(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		Adds a top-level menu to the administrator dashboard.<br /><br /><p>Hooks on action: admin_menu</p><p>I18n'd</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>since:</b>&nbsp;&nbsp;</td><td>0.0.2</td>
+  </tr>
+</table>
+</div>
+    <br /><br />
+	
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionup_action_admin_settings_fn"></a>
+	<h3>up_action_admin_settings_fn <span class="smalllinenumber">[line 506]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void up_action_admin_settings_fn(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		Creates the options page for the admin dashboard.<br /><br /><p>Hooks on action: admin_init</p><p>I18n'd</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>since:</b>&nbsp;&nbsp;</td><td>0.0.2</td>
+  </tr>
+</table>
+</div>
+    <br /><br />
+	
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionup_action_generate_rewrite_rules_fn"></a>
+	<h3>up_action_generate_rewrite_rules_fn <span class="smalllinenumber">[line 168]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void up_action_generate_rewrite_rules_fn(
+Object $wp_rewrite)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		Creates the url rewrite rules necessary to display the users' profiles on index.php/user-profile/[Parameter]<br /><br /><p>Hooks on action: generate_rewrite_rules</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>since:</b>&nbsp;&nbsp;</td><td>0.0.2</td>
+  </tr>
+</table>
+</div>
+    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">Object&nbsp;&nbsp;</td>
+        <td><b>$wp_rewrite</b>&nbsp;&nbsp;</td>
+        <td>WordPress' rewrite rules</td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionup_action_process_option_update_fn"></a>
+	<h3>up_action_process_option_update_fn <span class="smalllinenumber">[line 769]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void up_action_process_option_update_fn(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		Saves submitted user profile page settings into the database.<br /><br /><p>Uses usermeta table</p><p>Hooks on actions: personal_options_update, edit_user_profile_update</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>since:</b>&nbsp;&nbsp;</td><td>0.0.2</td>
+  </tr>
+</table>
+</div>
+    <br /><br />
+	
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionup_action_show_user_profile_fn"></a>
+	<h3>up_action_show_user_profile_fn <span class="smalllinenumber">[line 683]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void up_action_show_user_profile_fn(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		Echoes the dashboard user profile page options.<br /><br /><p>Hooks on actions: show_user_profile, edit_user_profile</p><p>I18n'd</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>since:</b>&nbsp;&nbsp;</td><td>0.0.2</td>
+  </tr>
+</table>
+</div>
+    <br /><br />
+	
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionup_admin_page_fn"></a>
+	<h3>up_admin_page_fn <span class="smalllinenumber">[line 650]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void up_admin_page_fn(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		Echoes the plugin's admin dashboard option page<br /><br /><p>I18n'd, access-restricted</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>since:</b>&nbsp;&nbsp;</td><td>0.0.2</td>
+  </tr>
+</table>
+</div>
+    <br /><br />
+	
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionup_admin_settings_generic_checkbox_fn"></a>
+	<h3>up_admin_settings_generic_checkbox_fn <span class="smalllinenumber">[line 632]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void up_admin_settings_generic_checkbox_fn(
+[Array $field_identifiers = array( &#039;generic_name&#039;, &#039;generic_id&#039; )])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		Echoes a checkbox for the provided form variable<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>since:</b>&nbsp;&nbsp;</td><td>0.0.3</td>
+  </tr>
+</table>
+</div>
+    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">Array&nbsp;&nbsp;</td>
+        <td><b>$field_identifiers</b>&nbsp;&nbsp;</td>
+        <td>An array containing the element name at position 0, and id at position 1</td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionup_admin_settings_stat_text_fn"></a>
+	<h3>up_admin_settings_stat_text_fn <span class="smalllinenumber">[line 603]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void up_admin_settings_stat_text_fn(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		Echoes description of the statistics section of the plugin's admin dashboard options page.<br /><br /><p>I18n'd</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>since:</b>&nbsp;&nbsp;</td><td>0.0.2</td>
+  </tr>
+</table>
+</div>
+    <br /><br />
+	
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionup_admin_settings_title_text_fn"></a>
+	<h3>up_admin_settings_title_text_fn <span class="smalllinenumber">[line 617]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void up_admin_settings_title_text_fn(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		Echoes the description of the general settings section of the plugin's admin dashboard options page.<br /><br /><p>I18n'd</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>since:</b>&nbsp;&nbsp;</td><td>0.0.2</td>
+  </tr>
+</table>
+</div>
+    <br /><br />
+	
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionup_admin_validate_fn"></a>
+	<h3>up_admin_validate_fn <span class="smalllinenumber">[line 530]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void up_admin_validate_fn(
+ $input)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		Sanitizes the input from the admin dashboard.<br /><br /><p>Input is all checkboxes, anyway, so this is not needed.</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>since:</b>&nbsp;&nbsp;</td><td>0.0.3</td>
+  </tr>
+</table>
+</div>
+    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$input</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionup_all_stats_fields_user"></a>
+	<h3>up_all_stats_fields_user <span class="smalllinenumber">[line 568]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void up_all_stats_fields_user(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		Echoes checkboxes for all 'statistic' fields for the end-user's profile options page.<br /><br /><p>I18n'd</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>since:</b>&nbsp;&nbsp;</td><td>0.0.2</td>
+  </tr>
+</table>
+</div>
+    <br /><br />
+	
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionup_filter_get_avatar_fn"></a>
+	<h3>up_filter_get_avatar_fn <span class="smalllinenumber">[line 229]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>String up_filter_get_avatar_fn(
+String $avatar, Object $user_info, integer $image_id, String $avatar_url)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		Wraps the users' avatars in a link to their profile page.<br /><br /><p>Hooks on filter: get_avatar</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>The user's avatar, replete with wrapping link to their profile page.</td>
+  </tr>
+  <tr>
+    <td><b>since:</b>&nbsp;&nbsp;</td><td>0.0.2</td>
+  </tr>
+</table>
+</div>
+    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">String&nbsp;&nbsp;</td>
+        <td><b>$avatar</b>&nbsp;&nbsp;</td>
+        <td>The current HTML for the user's avatar.</td>
+      </tr>
+		      <tr>
+        <td class="type">Object&nbsp;&nbsp;</td>
+        <td><b>$user_info</b>&nbsp;&nbsp;</td>
+        <td>A WordPress User object</td>
+      </tr>
+		      <tr>
+        <td class="type">integer&nbsp;&nbsp;</td>
+        <td><b>$image_id</b>&nbsp;&nbsp;</td>
+        <td>The avatar's image id. Unused by this function.</td>
+      </tr>
+		      <tr>
+        <td class="type">String&nbsp;&nbsp;</td>
+        <td><b>$avatar_url</b>&nbsp;&nbsp;</td>
+        <td>The URL to the user's avatar. Unused by this function.</td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionup_filter_get_the_author_url_fn"></a>
+	<h3>up_filter_get_the_author_url_fn <span class="smalllinenumber">[line 257]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>String up_filter_get_the_author_url_fn(
+String $author_url, integer $author_id)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		Replaces the &quot;author URL&quot; with a link to the author's profile page.<br /><br /><p>Hooks on filter: get_the_author_url</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>The URL to the author's profile page.</td>
+  </tr>
+  <tr>
+    <td><b>since:</b>&nbsp;&nbsp;</td><td>0.0.2</td>
+  </tr>
+</table>
+</div>
+    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">String&nbsp;&nbsp;</td>
+        <td><b>$author_url</b>&nbsp;&nbsp;</td>
+        <td>The current author URL</td>
+      </tr>
+		      <tr>
+        <td class="type">integer&nbsp;&nbsp;</td>
+        <td><b>$author_id</b>&nbsp;&nbsp;</td>
+        <td>The author's user ID</td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionup_filter_parse_query_fn"></a>
+	<h3>up_filter_parse_query_fn <span class="smalllinenumber">[line 194]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>Object up_filter_parse_query_fn(
+Object $q)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		Determines if the current page is the 'User-Profile' page.<br /><br /><p>Adds a query variable 'up_profile_page_activate'=&gt;TRUE if the request page is a user profile page.  This allows other functions to react appropriately.</p><p>Hooks on filter: parse_query</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>WordPress' Query Object, modified.</td>
+  </tr>
+  <tr>
+    <td><b>since:</b>&nbsp;&nbsp;</td><td>0.0.2</td>
+  </tr>
+</table>
+</div>
+    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">Object&nbsp;&nbsp;</td>
+        <td><b>$q</b>&nbsp;&nbsp;</td>
+        <td>WordPress' Query Object</td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionup_filter_plugin_action_links_fn"></a>
+	<h3>up_filter_plugin_action_links_fn <span class="smalllinenumber">[line 813]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void up_filter_plugin_action_links_fn(
+ $links,  $file)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		Adds &quot;settings&quot; to the left of &quot;Activate/Deactivate | Edit&quot; on the plugin list page.<br /><br /><p>Hooks on filter: plugin_action_links</p><p>I18n'd</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>since:</b>&nbsp;&nbsp;</td><td>0.0.4</td>
+  </tr>
+</table>
+</div>
+    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$links</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$file</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionup_filter_plugin_row_meta_fn"></a>
+	<h3>up_filter_plugin_row_meta_fn <span class="smalllinenumber">[line 835]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void up_filter_plugin_row_meta_fn(
+ $meta_links,  $file)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		Adds &quot;E-mail Support&quot; to the right of &quot;Version #.#.# | By Author | Visit plugin site&quot; on the plugin list page.<br /><br /><p>Hooks on filter: plugin_row_meta</p><p>I18n'd</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>since:</b>&nbsp;&nbsp;</td><td>0.0.4</td>
+  </tr>
+</table>
+</div>
+    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$meta_links</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$file</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionup_filter_query_vars_fn"></a>
+	<h3>up_filter_query_vars_fn <span class="smalllinenumber">[line 150]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>Array up_filter_query_vars_fn(
+Array $qvars)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		Adds 'username' to the list of query vars that WordPress will register.<br /><br /><p>Hooks on filter: query_vars</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>Modified $qvars array with 'username' appended</td>
+  </tr>
+  <tr>
+    <td><b>since:</b>&nbsp;&nbsp;</td><td>0.0.2</td>
+  </tr>
+</table>
+</div>
+    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">Array&nbsp;&nbsp;</td>
+        <td><b>$qvars</b>&nbsp;&nbsp;</td>
+        <td>WordPress' list of query variables</td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionup_filter_the_posts_fn"></a>
+	<h3>up_filter_the_posts_fn <span class="smalllinenumber">[line 426]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>Array up_filter_the_posts_fn(
+Array $posts)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		Overwrites a 'page's content with a user's profile.<br /><br /><p>If the page viewed is the &quot;user profile&quot; page that the plugin created. Otherwise, this function does not modify the post.</p><p>Hooks on filter: the_posts</p><p>I18n'd</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>with $posts[0]'s properties overwritten to display a user's profile.</td>
+  </tr>
+  <tr>
+    <td><b>since:</b>&nbsp;&nbsp;</td><td>0.0.2</td>
+  </tr>
+</table>
+</div>
+    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">Array&nbsp;&nbsp;</td>
+        <td><b>$posts</b>&nbsp;&nbsp;</td>
+        <td>All the posts to display on the page</td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionup_hide_comment_template_fn"></a>
+	<h3>up_hide_comment_template_fn <span class="smalllinenumber">[line 789]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void up_hide_comment_template_fn(
+ $file)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		Makes the comment section invisible on user profile pages.<br /><br /><p>Points to &quot;up-no-comments.php,&quot; an empy page, as the 'comment template.'</p><p>Hooks on filter: comments_template</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>since:</b>&nbsp;&nbsp;</td><td>0.0.2</td>
+  </tr>
+</table>
+</div>
+    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$file</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionup_install"></a>
+	<h3>up_install <span class="smalllinenumber">[line 38]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void up_install(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		Installs and initializes the 'user-profile-pages' plugin.<br /><br /><p>Sets up options in wp_options database table, and creates the 'user profile' WordPress Page that the plugin needs.  If the plugin is being re-activated, and 'restore defaults on re-activation' was checked, this will restore settings to the default values.</p><p>Hooks on plugin activation (register_activation_hook(..))</p><p>I18n'd</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>since:</b>&nbsp;&nbsp;</td><td>0.0.2</td>
+  </tr>
+</table>
+</div>
+    <br /><br />
+	
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionup_make_user_list"></a>
+	<h3>up_make_user_list <span class="smalllinenumber">[line 401]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>String up_make_user_list(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		Generates the HTML code to display when a profile page is viewed with NO user specified and NO user logged in.<br /><br /><p>I18n'd</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>HTML code</td>
+  </tr>
+  <tr>
+    <td><b>since:</b>&nbsp;&nbsp;</td><td>0.0.2</td>
+  </tr>
+</table>
+</div>
+    <br /><br />
+	
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionup_make_user_profile"></a>
+	<h3>up_make_user_profile <span class="smalllinenumber">[line 275]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>String up_make_user_profile(
+Object $user_info)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		Generates the HTML code to display a user's profile page.<br /><br /><p>I18n'd</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>The HTML code for the users' profile page.</td>
+  </tr>
+  <tr>
+    <td><b>since:</b>&nbsp;&nbsp;</td><td>0.0.2</td>
+  </tr>
+</table>
+</div>
+    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">Object&nbsp;&nbsp;</td>
+        <td><b>$user_info</b>&nbsp;&nbsp;</td>
+        <td>A WordPress User object</td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionup_make_user_profile_stats"></a>
+	<h3>up_make_user_profile_stats <span class="smalllinenumber">[line 321]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>String up_make_user_profile_stats(
+Object $user_info)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		Generates the HTML code to display a user's statistics.<br /><br /><p>Generated stats can only be shown if they are one of the stats the admin has enabled in the dashboard.  Nothing, not even a header, will be returned if there are no stats to show.</p><p>I18n'd</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>The HTML code to display the user's statistics</td>
+  </tr>
+  <tr>
+    <td><b>since:</b>&nbsp;&nbsp;</td><td>0.0.2</td>
+  </tr>
+</table>
+</div>
+    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">Object&nbsp;&nbsp;</td>
+        <td><b>$user_info</b>&nbsp;&nbsp;</td>
+        <td>A WordPress User object</td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionup_process_user_profile_text"></a>
+	<h3>up_process_user_profile_text <span class="smalllinenumber">[line 372]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>String up_process_user_profile_text(
+integer $user_id, Object $user_info)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		Filters the user's 'profile page' text blurb, replacing [tags] with their actual values.<br /><br /><p>[biography], [aim], [yim], [gtalk], [email], [website], [website_link], and [display_name] are valid.  All of those are I18n'd, so the specific string may vary by language. (I18n'd)</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>The filtered profile page blurb</td>
+  </tr>
+  <tr>
+    <td><b>since:</b>&nbsp;&nbsp;</td><td>0.0.2</td>
+  </tr>
+</table>
+</div>
+    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">integer&nbsp;&nbsp;</td>
+        <td><b>$user_id</b>&nbsp;&nbsp;</td>
+        <td>The given users's ID</td>
+      </tr>
+		      <tr>
+        <td class="type">Object&nbsp;&nbsp;</td>
+        <td><b>$user_info</b>&nbsp;&nbsp;</td>
+        <td>A WordPress User object</td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionup_remove"></a>
+	<h3>up_remove <span class="smalllinenumber">[line 109]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void up_remove(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		Removes the 'user-profile-pages' plugin.<br /><br /><p>Deletes UPP-specific rows from the wp_options table, and deletes the &quot;User Profile&quot; page that the plugin created.</p><p>Hooks on deactivation (register_deactivation_hook(...))</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>since:</b>&nbsp;&nbsp;</td><td>0.0.2</td>
+  </tr>
+</table>
+</div>
+    <br /><br />
+	
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionup_update_all_stats_fields_user"></a>
+	<h3>up_update_all_stats_fields_user <span class="smalllinenumber">[line 741]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void up_update_all_stats_fields_user(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		Saves submitted user profile page <strong>statistic</strong> settings into the database<br /><br /><p>Uses usermeta table</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>since:</b>&nbsp;&nbsp;</td><td>0.0.2</td>
+  </tr>
+</table>
+</div>
+    <br /><br />
+	
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+
+        <div class="credit">
+		    <hr />
+		    Documentation generated on Wed, 20 Oct 2010 15:55:46 -0500 by <a href="http://www.phpdoc.org">phpDocumentor 1.4.3</a>
+	      </div>
+      </td></tr></table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
